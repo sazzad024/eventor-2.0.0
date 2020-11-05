@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --primary-color: #fbe8a6;
+  --secondary-color1: #f4976c;
+  --secondary-color2: #303c6c;
+  --secondary-color3: #b4dfe5;
+  --secondary-color4: #d2fdff;
+}
+
+html[data-color="set-1"] {
+  --primary-color: #fbe8a6;
+  --secondary-color1: #f4976c;
+  --secondary-color2: #303c6c;
+  --secondary-color3: #b4dfe5;
+  --secondary-color4: #d2fdff;
+}
+
+html[data-color="set-2"] {
+  --primary-color: #19181a;
+  --secondary-color1: #479761;
+  --secondary-color2: #cebc81;
+  --secondary-color3: #a16e83;
+  --secondary-color4: #b19f9e;
+}
+
+html[data-color="set-3"] {
+  --primary-color: #5f6366;
+  --secondary-color1: #4d6d9a;
+  --secondary-color2: #86b3d1;
+  --secondary-color3: #99ced3;
+  --secondary-color4: #edb5bf;
+}
+
+html[data-color="set-4"] {
+  --primary-color: #5cdb95;
+  --secondary-color1: #05386b;
+  --secondary-color2: #379683;
+  --secondary-color3: #8ee4af;
+  --secondary-color4: #edf5e1;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  -webkit-transition: all 750ms !important;
+  transition: all 750ms !important;
+  -webkit-transition-delay: 0 !important;
+          transition-delay: 0 !important;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: var(--secondary-color1);
+}
+
+h2 {
+  color: var(--secondary-color2);
+}
+
+h3 {
+  color: var(--secondary-color3);
+}
+
+h4 {
+  color: var(--secondary-color4);
+}
+
+.color-switch {
+  width: 25px;
+  position: fixed;
+  top: 100px;
+  left: 30px;
+  z-index: 20000;
+}
+
+.switches {
+  border: 2px solid white;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  padding-top: 21px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#c-switch-1 {
+  background-color: #f4976c;
+}
+
+#c-switch-2 {
+  background-color: #479761;
+}
+
+#c-switch-3 {
+  background-color: #4d6d9a;
+}
+
+#c-switch-4 {
+  background-color: #05386b;
+}
+/*# sourceMappingURL=mystyle.css.map */
