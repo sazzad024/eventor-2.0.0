@@ -1,0 +1,37 @@
+.my-btn{
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    padding: .2rem .5rem;
+    color: var(--text-color);
+    transition: .3s ease all;
+    &:hover{
+        transform: scale(.95);
+    }
+    margin: .3rem .4rem;
+}
+.my-btn1{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.my-btn2{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.my-btn-bg{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border: 1.5px solid var(--bg-color);
+}
+.my-btn-sub1{
+    background-color: var(--sub-color1);
+}
+.my-btn-sub2{
+    background-color: var(--sub-color2);
+}
+.my-btn-sub3{
+    color: var(--sub-color1);
+    background-color: var(--sub-color3);
+    border: 1.5px solid var(--sub-color1);
+}

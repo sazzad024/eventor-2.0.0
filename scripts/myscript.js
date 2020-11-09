@@ -19,6 +19,31 @@ $(document).ready(function(){
     function transMe(){
         $("html").addClass("transition");
     }
+
+    // score settings 
+    
+    setInterval(function(){ 
+        $(".head-score").each(function(){
+            var $eventName = $(this).closest('.event-name');
+            var $eventNumber = $(this).closest('.event-number');
+            $(this).addClass( "flipInX").delay(1500)
+            .queue(function() {
+                $(this).removeClass("flipInX");
+                $(this).dequeue();
+            });
+            //window.alert($eventName.hasClass("dis-none").toString());
+            if($eventName.hasClass("dis-none")){
+                window.alert("hello");
+                $eventName.removeClass("dis-none");
+                $eventNumber.addClass("dis-none");
+            }
+            else{
+                $eventName.addClass("dis-none");
+                $eventNumber.removeClass("dis-none");
+            }
+        });
+    }, 4000);
+    
   });
 
 
@@ -30,3 +55,5 @@ let trans = () => {
     }, 1000)
 }
 */
+
+// score settings 
