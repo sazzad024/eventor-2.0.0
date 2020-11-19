@@ -16,6 +16,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Md. Sazzad Hossain">
     <title>Home page</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/vivify.min.css">
@@ -28,9 +29,42 @@
         <div id="c-switch-3" class="switches"></div>
         <div id="c-switch-4" class="switches"></div>
     </div>
+    <section id="menu-section" class="container-fluid">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto menu-item">
+                        <li class="">
+                            <a class="" href="#">VENUE</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">PHOTOGRAPHY</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">ORGANIZER</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">BEAUTIFICATION</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">BLOG</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">SIGN IN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+    </section>
     <section class="container-fluid">
         <div class="cover-frame row justify-content-center align-items-center">
-            <div class="video-container" style="background: var(--primary-color) url('../images/cover-2.jpg') no-repeat center
+            <div class="video-container" style="background: url('images/cover-2.jpg') no-repeat center
             center/cover;">
                 <!--<video src="videoss/180301_16_B_LunarYearsParade_20con.mp4" autoplay muted loop></video>-->
             </div>
@@ -63,22 +97,296 @@
             </div>
         </div>
     </section>
+    <!--services-->
+    <section id="services-section" class="container-fluid pt-4 pb-5">
+        <div class="container">
+            <div class="title-box">
+                <h2>Our Services</h2> 
+                <h5>Lets take a service</h5>
+            </div>
+            <div class="row pt-4 pb-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="service">
+                        <div class="service-bnr">
+                            <img src="images/wedding1.jpg" alt="">
+                        </div>
+                        <p class="service-name">Widding Planning</p>
+                        <button class="my-btn my-btn1 my-btn-sub2">Booking Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="service">
+                        <div class="service-bnr">
+                            <img src="images/concert1.jpg" alt="">
+                        </div>
+                        <p class="service-name">Concert Pakage</p>
+                        <button class="my-btn my-btn1 my-btn-sub2">Arrange Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="service">
+                        <div class="service-bnr">
+                            <img src="images/birthday1.jpg" alt="">
+                        </div>
+                        <p class="service-name">Birthday Party</p>
+                        <button class="my-btn my-btn1 my-btn-sub2">Booking Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="service">
+                        <div class="service-bnr">
+                            <img src="images/conference1.jpg" alt="">
+                        </div>
+                        <p class="service-name">Conference Planning</p>
+                        <button class="my-btn my-btn1 my-btn-sub2">Booking Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--gallery-->
+    <section id="gallery" class="container-fluid pt-4 pb-5">
+        <div class="container">
+            <div class="filter-title">
+                <h2>Gallery</h2>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="col-auto pl-0 pr-0">
+                        <h5>Our glorious moments</h5>
+                    </div>
+                    <div class="col-auto pl-0 pr-0">
+                        <ul class="gallery-filter">
+                            <li>
+                                <a href="">All</a>
+                            </li>
+                            <li>
+                                <a href="">Wedding</a>
+                            </li>
+                            <li>
+                                <a href="">Birthday</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid mt-2 mb-4">
+                <!-- width of .grid-sizer used for columnWidth -->
+                <div class="grid-sizer"></div>
+                <div class="ms-image grid-item ms-width1 ms-height2">
+                    1
+                    <img src="images/gallery (1).jpg" alt="">
+                </div>
+                <div class="ms-image grid-item ms-width2 ms-height1">
+                    2
+                    <img src="images/gallery (7).jpg" alt="">
+                </div>
+                <div class="ms-image grid-item ms-width3 ms-height1">
+                    3
+                    <img src="images/gallery (3).jpg" alt="">
+                </div>
+                <div class="ms-image grid-item ms-width3 ms-height1">
+                    4
+                    <img src="images/gallery (4).jpg" alt="">
+                </div>
+                <div class="ms-image grid-item ms-width2 ms-height1">
+                    5
+                    <img src="images/gallery (5).jpg" alt="">
+                </div>
+                <div class="ms-image grid-item ms-width2 ms-height1">
+                    6
+                    <img src="images/gallery (6).jpg" alt="">
+                </div>
+                <div class="ms-image grid-item ms-width3 ms-height1">
+                    7
+                    <img src="images/gallery (2).jpg" alt="">
+                </div>
+                <div class="ms-image grid-item ms-width3 ms-height1">
+                    8
+                    <img src="images/gallery (8).jpg" alt="">
+                </div>
+                
+                ...
+            </div>
+        </div>
+    </section>
+    <!-- Client section -->
+    <section id="client" class="container-fluid pt-4 pb-5">
+        <div class="container">
+            <div class="client-title">
+                <h2>Client Satisfaction</h2>
+                <h5>Feedback</h5>
+            </div>
+            <div class="row justify-content-center align-items-center pt-4 pb-4">
+                <div class="col-auto">
+                    <div class="client-profile">
+                        <img src="images/client1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae possimus fuga.</p>
+                    <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!--blog section-->
+    <section id="blog" class="container-fluid pt-4 pb-5">
+        <div class="container">
+            <div class="blog-title">
+                <h2>Blog</h2>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="col-auto pl-0 pr-0">
+                        <h5>Articale from the Blog</h5>
+                    </div>
+                    <div class="col-auto pl-0 pr-0">
+                        <ul class="blog-filter">
+                            <li>
+                                <a href="">All</a>
+                            </li>
+                            <li>
+                                <a href="">Wedding</a>
+                            </li>
+                            <li>
+                                <a href="">Birthday</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mb-4">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="blog-box">
+                        <div class="blog-bnr">
+                            <img src="images/blog (1).jpg" alt="">
+                        </div>
+                        <div class="blog-date mt-3">
+                            <h5>Jan 12, 2020</h5>
+                        </div>
+                        <div class="blog-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, rem ratione! Eos obcaecati repellendus cumque rerum, officiis suscipit atque fuga illo aut aliquam! Velit itaque quam corporis ducimus inventore magni?</p>
+                        </div>
+                        <div class="blog-author d-flex justify-content-center align-items-center mt-4">
+                            <h6>By Sazzad Hossain</h6>
+                            <h6> &nbsp;&nbsp;|<span>|</span>&nbsp;&nbsp; </h6>
+                            <p>31 Comments</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="blog-box">
+                        <div class="blog-bnr">
+                            <img src="images/blog (2).jpg" alt="">
+                        </div>
+                        <div class="blog-date mt-3">
+                            <h5>Jan 12, 2020</h5>
+                        </div>
+                        <div class="blog-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, rem ratione! Eos obcaecati repellendus cumque rerum, officiis suscipit atque fuga illo aut aliquam! Velit itaque quam corporis ducimus inventore magni?</p>
+                        </div>
+                        <div class="blog-author d-flex justify-content-center align-items-center mt-4">
+                            <h6>By Sazzad Hossain</h6>
+                            <h6> &nbsp;&nbsp;|<span>|</span>&nbsp;&nbsp; </h6>
+                            <p>31 Comments</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="blog-box">
+                        <div class="blog-bnr">
+                            <img src="images/blog (3).jpg" alt="">
+                        </div>
+                        <div class="blog-date mt-3">
+                            <h5>Jan 12, 2020</h5>
+                        </div>
+                        <div class="blog-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, rem ratione! Eos obcaecati repellendus cumque rerum, officiis suscipit atque fuga illo aut aliquam! Velit itaque quam corporis ducimus inventore magni?</p>
+                        </div>
+                        <div class="blog-author d-flex justify-content-center align-items-center mt-4">
+                            <h6>By Sazzad Hossain</h6>
+                            <h6> &nbsp;&nbsp;|<span>|</span>&nbsp;&nbsp; </h6>
+                            <p>31 Comments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-auto">
+                    <button class="my-btn my-btn1 my-btn-sub2">More Blog</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section-->
+    <section id="contact" class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <form action="" class="row justify-content-center align-items-base mt-4 mb-4">
+                <div class="col-12 col-md-8">
+                    <h5 class="">Stay Updated and Join Our NewsLetter</h5>
+                    <input type="email" placeholder="Enter Your Email Address">
+                </div>
+                <div class="col-auto d-flex align-items-end">
+                    <button class="my-btn my-btn1 my-btn-sub2">Subscribe</button>
+                </div>
+            </form>
+            <div class="row justify-content-center mt-5 mb-2">
+                <div class="col-auto">
+                    <ul class="social-link">
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="" class=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="" class=""><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="" class=""><i class="fab fa-vk"></i></a></li>
+                        <li><a href="" class=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="" class=""><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href="" class=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="" class=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center flex-wrap">
+                <div class="col-auto">
+                    <ul class="sub-menus">
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Membership</a></li>
+                        <li><a href="">Upcomming Events</a></li>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Become a Sponsor</a></li>
+                        <li><a href="">Site Instruction</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--copy rights-->
+    <section id="copy" class="container-fluid pt-3 pb-3">
+        <div class="container">
+            <div class="row justify-content-center flex-wrap text-center">
+                <h6>&copy; <b>softbin.com.bd</b> all rights reserved</h6>
+            </div>
+        </div>
+    </section>
+    <!--
     <div class="container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center pt-5 ">
-                    <h1>Secondary color 1</h1><br>
-                    <h2>Secondary color 2</h2>
-                    <h3>Secondary color 3</h3>
-                    <h4>Secondary color 4</h4>
+                    <h1>Text Color</h1><br>
+                    <h2>Sub Color 1</h2>
+                    <h3>Sub Color 2</h3>
+                    <h4>Sub Color 3</h4>
                 </div>
             </div>
         </div>
     </div>
+    -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="scripts/myscript.js"></script>
 </body>
 </html>
